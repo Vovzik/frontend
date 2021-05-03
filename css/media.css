@@ -1,0 +1,303 @@
+@media (max-width: 1214px) {
+	.section_block-formDisplay {
+		display: block;
+	}
+
+	.section_block-formAddres {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	.section_block-formFlex {
+		display: block;
+	}
+
+	.section_block-formItems {
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
+
+	.section_block-factoryFlex {
+		display: block;
+		max-width: 550px;
+		margin: 0 auto;
+		margin-top: 18px;
+	}
+
+	.section_block-factoryItems {
+		margin-bottom: 20px;
+	}
+
+	.section_block-factoryItems:last-child,
+	.section_block-formAddres:last-child,
+	.section_block-formItems:last-child {
+		margin-bottom: 0px;
+	}
+
+	.section_block-dostavka {
+		display: block;
+		max-width: 574px;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+
+	.section_block-dostavkaItem {
+		margin-bottom: 20px;
+	}
+
+	.section_block-dostavkaItem:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+@media (max-width: 1186px) {
+	.section_block-warrantybox {
+		display: block;
+		max-width: 550px;
+		margin: 0 auto;
+	}
+
+	.section_block-itemsFlex {
+		display: block;
+		max-width: 545px;
+		margin: 0 auto;
+		margin-top: 31px;
+	}
+
+	.section_block-itemsPobeda {
+		margin-bottom: 30px;
+	}
+
+	.section_block-itemsPobeda:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+@media (max-width: 1120px) {
+	.section_block-cooperationBox img {
+		display: none;
+	}
+
+	.section_block-measurerBox {
+		background-image: url("../images/measurerMobil.png");
+		border-radius: 0px 4px 4px 0px;
+	}
+}
+
+@media (max-width: 1078px) {
+	.header_top-block2 .header_top-blockSvg {
+		display: none;
+	}
+
+	.header_top-phone {
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.header_top-mail {
+		display: none;
+	}
+
+	.header_top-address {
+		text-align: center;
+		margin-bottom: 5px;
+	}
+
+	.header_top-address:last-child {
+		margin-bottom: 0px;
+	}
+
+	.header_content {
+		display: none;
+	}
+
+	.header_top {
+		padding: 10px 0px;
+	}
+
+	.header_top-block {
+		height: 39px;
+	}
+
+	.header_top-block2 {
+		height: 60px;
+	}
+
+	.header_content {
+		background-image: none;
+	}
+
+	.header_top-flex {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.header_top-block1 {
+		order: -1;
+		height: 114px;
+		margin-bottom: 9px;
+	}
+
+	.header_content {
+		position: relative;
+	}
+
+	.header_content-burger {
+		position: absolute;
+		display: block;
+		top: 12px;
+		left: 18px;
+	}
+
+	.header_content-menu {
+		background-color: #008bce;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 102%;
+		height: 0px;
+		overflow: hidden;
+		transition: height 0.6s ease;
+		z-index: 1;
+	}
+
+	.header_content-menu.open {
+		height: 501px;
+	}
+
+	.header_content-menu ul {
+		display: block;
+		padding: 20px;
+	}
+
+	.header_content-menu a {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.section_block-cooperationBox {
+		padding: 25px 10px 25px 10px;
+	}
+
+	.section_block-cooperationObertka {
+		margin: 0 auto;
+	}
+
+	.section_block-measurerBox img {
+		display: none;
+	}
+
+	.section_block-cooperationBox {
+		background-image: none;
+	}
+}
+
+@media (max-width: 526px) {
+	.section_block-itemsMap {
+		display: block;
+		text-align: center;
+	}
+
+	.section_block-itemsDOORS {
+		margin-bottom: 20px;
+		justify-content: center;
+	}
+
+	.section_block-itemsBtn {
+		width: 100%;
+	}
+}
+
+@media (max-width: 518px) {
+	.footer_text {
+		padding: 0px 55px 0px 55px;
+	}
+}
+
+@media (max-width: 482px) {
+	.section_block-itemsText {
+		display: block;
+	}
+}
+
+@media (max-width: 444px) {
+	.popup_btn {
+		width: 100%;
+	}
+
+	.header_top-address {
+		font-size: 14px;
+	}
+
+	.header_top-phone {
+		font-size: 20px;
+	}
+
+	.section_block-title {
+		font-size: 18px;
+	}
+
+	.section_block-measurerBtn {
+		padding: 17px 0px 17px 0px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 400px) {
+	.section_block-formText.media {
+		padding-left: 26px;
+	}
+}
+
+@media (max-width: 390px) {
+	.header_top-block1 {
+		width: 303px;
+		height: 97px;
+	}
+
+	.header_top-block1 img {
+		width: 100%;
+	}
+
+	.header_top-doors,
+	.header_top-dreams {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 364px) {
+	.slick-btn {
+		display: none !important;
+	}
+
+	.section_block-slider {
+		padding: 0;
+	}
+}
+
+@media (max-width: 356px) {
+	.section_block-formText.media {
+		padding-left: 23px;
+	}
+}
+
+@media (max-width: 350px) {
+	.header_top-block1 {
+		width: 282px;
+	}
+
+	.header_top-doors,
+	.header_top-dreams {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 325px) {
+	.section_block-formText.media {
+		padding-left: 20px;
+	}
+}
